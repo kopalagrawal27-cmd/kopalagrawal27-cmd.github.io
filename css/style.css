@@ -6,22 +6,17 @@ body {
 
 header {
   background-color: #1f3c88;
-  padding: 15px 0;
 }
 
-.container {
-  width: 90%;
+.header-inner {
   max-width: 1000px;
   margin: auto;
+  padding: 15px;
 }
 
 header h1 {
   color: white;
-  margin: 0;
-}
-
-nav {
-  margin-top: 10px;
+  margin: 0 0 10px 0;
 }
 
 nav a {
@@ -29,14 +24,22 @@ nav a {
   text-decoration: none;
   margin-right: 20px;
   font-weight: bold;
+  display: inline-block;
 }
 
 nav a:hover {
   text-decoration: underline;
 }
 
+.container {
+  max-width: 1000px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+}
+
 footer {
-  margin-top: 40px;
   text-align: center;
   color: gray;
+  margin-top: 40px;
 }
