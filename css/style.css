@@ -1,32 +1,38 @@
 body {
-  font-family: Arial, Helvetica, sans-serif;
   margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
   background-color: #f4f6f8;
+}
+
+header {
+  background-color: #1f3c88;
+  padding: 15px 0;
 }
 
 .container {
   width: 90%;
   max-width: 1000px;
   margin: auto;
-  background: white;
-  padding: 20px;
 }
 
-header {
-  background: #1f3c88;
+header h1 {
   color: white;
-  padding: 15px;
+  margin: 0;
+}
+
+nav {
+  margin-top: 10px;
 }
 
 nav a {
   color: white;
-  margin-right: 15px;
   text-decoration: none;
+  margin-right: 20px;
   font-weight: bold;
 }
 
-h1, h2 {
-  color: #1f3c88;
+nav a:hover {
+  text-decoration: underline;
 }
 
 footer {
